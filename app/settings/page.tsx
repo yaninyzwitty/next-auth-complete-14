@@ -1,10 +1,6 @@
-import {auth} from "@/auth";
 import SignOutButton from "@/components/sign-out-button";
-import React from "react";
 
-async function Settingspage() {
-  const session = await auth();
-  console.log({session});
+function Settingspage() {
   return (
     <div>
       <SignOutButton />
